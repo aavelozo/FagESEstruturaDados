@@ -47,14 +47,12 @@ public class Configuracoes {
 			listaConfigs.add(new Configuracao("entradaAutomaticaClientes","[DEMO]Entrada Automatica Clientes","Boolean","true"));
 			listaConfigs.add(new Configuracao("freqEntradaAutomaticaCliente","[DEMO]Frequência de Entrada Automatica de Clientes","Integer","1000",1000,(int)(Integer.MAX_VALUE/10)));
 			listaConfigs.add(new Configuracao("encerramentoAutomaticoClientes","[DEMO]Encerramento Automatico Clientes","Boolean","true"));
-			listaConfigs.add(new Configuracao("tempoPermanenciaAutomaticaCliente","[DEMO]Tempo Permanência Automatica de Clientes","Integer","20000",1000,(int)(Integer.MAX_VALUE/10)));
+			listaConfigs.add(new Configuracao("tempoPermanenciaAutomaticaCliente","[DEMO]Tempo Permanência Automatica de Clientes","Integer","15000",1000,(int)(Integer.MAX_VALUE/10)));
 			listaConfigs.add(new Configuracao("consumoAutomatico","[DEMO]Consumo Automatico","Boolean","true"));
-			listaConfigs.add(new Configuracao("freqConsumoAutomatico","[DEMO]Frequência de Consumo Automatico","Integer","4000",1000,(int)(Integer.MAX_VALUE/10)));
+			listaConfigs.add(new Configuracao("freqConsumoAutomatico","[DEMO]Frequência de Consumo Automatico","Integer","2000",1000,(int)(Integer.MAX_VALUE/10)));
 			listaConfigs.add(new Configuracao("atendimentoAutomaticoCaixa","[DEMO]Atendimento Automatico Caixa","Boolean","true"));
-			listaConfigs.add(new Configuracao("freqAtendimentoAutomaticoCaixa","[DEMO]Frequência de Atendimento Automatica no Caixa","Integer","3000",1000,(int)(Integer.MAX_VALUE/10)));
+			listaConfigs.add(new Configuracao("freqAtendimentoAutomaticoCaixa","[DEMO]Frequência de Atendimento Automatica no Caixa","Integer","2000",1000,(int)(Integer.MAX_VALUE/10)));
 			listaConfigs.add(new Configuracao("reabastecimentoAutomaticoPilhaBrindes","[DEMO]Reabastecimento automatico pilha Brindes","Boolean","true"));
-			
-			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}

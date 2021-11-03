@@ -178,7 +178,7 @@ public class Mesa {
 			while(true) {
 				Thread.sleep(FuncoesMatematica.getInstancia().rand(
 					Integer.valueOf(configs.getInstancia().getConfig("freqConsumoAutomatico")),
-					Integer.valueOf(configs.getInstancia().getConfig("freqConsumoAutomatico")) * 10
+					Integer.valueOf(configs.getInstancia().getConfig("freqConsumoAutomatico")) * 2
 				));
 				if (this.cliente != null) {
 					if (Variaveis.getInstancia().getStatusDemo() == 1 && Variaveis.getInstancia().getStatusAtendimento() == 1 && Boolean.valueOf(configs.getInstancia().getConfig("consumoAutomatico"))) {

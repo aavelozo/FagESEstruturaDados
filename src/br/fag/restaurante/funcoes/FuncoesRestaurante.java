@@ -79,7 +79,7 @@ public class FuncoesRestaurante {
 				}
 				Thread.sleep(FuncoesMatematica.getInstancia().rand(
 					Integer.valueOf(configs.getInstancia().getConfig("freqEntradaAutomaticaCliente")),
-					Integer.valueOf(configs.getInstancia().getConfig("freqEntradaAutomaticaCliente")) * 10
+					Integer.valueOf(configs.getInstancia().getConfig("freqEntradaAutomaticaCliente")) * 3
 				));
 			}
 		} catch(Exception e) {

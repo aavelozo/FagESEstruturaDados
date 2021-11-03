@@ -236,7 +236,7 @@ public class Caixa {
 			while(true) {
 				Thread.sleep(FuncoesMatematica.getInstancia().rand(
 					Integer.valueOf(configs.getInstancia().getConfig("freqAtendimentoAutomaticoCaixa")),
-					Integer.valueOf(configs.getInstancia().getConfig("freqAtendimentoAutomaticoCaixa")) * 10
+					Integer.valueOf(configs.getInstancia().getConfig("freqAtendimentoAutomaticoCaixa")) * 2
 				));
 				if (Variaveis.getInstancia().getStatusDemo() == 1 && Variaveis.getInstancia().getStatusAtendimento() == 1 && Boolean.valueOf(configs.getInstancia().getConfig("atendimentoAutomaticoCaixa"))) {
 					if (this.filaCaixa == null) {
