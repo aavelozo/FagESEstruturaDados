@@ -53,6 +53,8 @@ public class Configuracoes {
 			listaConfigs.add(new Configuracao("atendimentoAutomaticoCaixa","[DEMO]Atendimento Automatico Caixa","Boolean","true"));
 			listaConfigs.add(new Configuracao("freqAtendimentoAutomaticoCaixa","[DEMO]Frequência de Atendimento Automatica no Caixa","Integer","3000",1000,(int)(Integer.MAX_VALUE/10)));
 			listaConfigs.add(new Configuracao("reabastecimentoAutomaticoPilhaBrindes","[DEMO]Reabastecimento automatico pilha Brindes","Boolean","true"));
+			
+			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
